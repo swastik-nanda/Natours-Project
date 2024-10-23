@@ -15,6 +15,8 @@ const reviewRouter = require("./starter/routes/reviewRoutes");
 const viewRouter = require("./starter/routes/viewRoutes");
 const globalErrorHandler = require("./starter/controllers/errorController");
 const AppError = require("./starter/utils/appError");
+
+// Start Express App
 const app = express();
 
 app.set("view engine", "pug");
